@@ -21,6 +21,6 @@ def http_trigger(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}.")
     else:
         return func.HttpResponse(
-            "Hello World.",
+            "Hello World v1",
             status_code=200,
         )
